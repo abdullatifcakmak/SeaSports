@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sea Store</title>
+    <link rel="icon" href="../images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Magaza.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!--En üst Kısım-->
+    <div class="en-ust">
+      <p>Sea Sport Official Shopping Site</p>
+      <a href="#">SATIŞ NOKTALARI</a>
+      <a href="#">SİPARİŞ TAKİP</a>
+      <a href="#"><i class="fa-regular fa-credit-card"></i>&emsp;SEA CARD</a>
+      <a href="#"><i class="fa-regular fa-user"></i>&emsp;HESABIM</a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i>&emsp;0 ÜRÜN</a>
+      <hr />
+    </div>
+
+    <!--Menü-->
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <img src="../images/logo.png" alt="logo" class="logo-icon" />
+        <strong><p class="logo">Sea Store</p></strong>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Erkek
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kadın
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Çocuk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Bebek
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Aksesuar
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Outlet
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Maç Ürünler</a></li>
+                <li><a class="dropdown-item" href="#">Kamp / Antreman</a></li>
+                <li><a class="dropdown-item" href="#">Giyim</a></li>
+                <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Ürün ara..."
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Ara</button>
+        </form>
+      </div>
+    </nav>
+
+    <br />
+    <!--Kategori-->
+    <div class="btn-group">
+      <p style="font-size: 20px; font-family: Verdana; padding: 15px">
+        Kategori:
+      </p>
+      <button type="button" class="btn btn-info">Tümü</button>
+      <button
+        type="button"
+        class="btn btn-info dropdown-toggle dropdown-toggle-split"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Forma</a></li>
+        <li><a class="dropdown-item" href="#">Şort</a></li>
+        <li><a class="dropdown-item" href="#">Eşofman</a></li>
+        <li><a class="dropdown-item" href="#">Mont</a></li>
+        <li><a class="dropdown-item" href="#">Sweat</a></li>
+        <li><a class="dropdown-item" href="#">T-shirt</a></li>
+      </ul>
+
+      <p style="font-size: 20px; font-family: Verdana; padding: 15px">
+        Fiyat Aralığı:
+      </p>
+      <button type="button" class="btn btn-info">Tümü</button>
+      <button
+        type="button"
+        class="btn btn-info dropdown-toggle dropdown-toggle-split"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Fiyata Göre Artan</a></li>
+        <li><a class="dropdown-item" href="#">Fiyata Göre Azalan</a></li>
+      </ul>
+
+      <p
+        style="
+          font-size: 14px;
+          font-family: Verdana;
+          padding: 15px;
+          color: grey;
+        "
+      >
+        12 ürün
+      </p>
+    </div>
+
+    <br /><br />
+    <!--Kartlar-->
+    <div class="card-container">
+      <div class="card">
+        <img src="../images/forma.png" alt="forma" class="card-img-top" />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Sea Sport Forma $90</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/sweat.png" alt="sweat" class="card-img-top" />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Kapşonlu Sweat $60</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/antremanForma.png"
+          alt="antremanForma"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Antreman Forma $60</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <div class="card-container">
+      <div class="card">
+        <img
+          src="../images/1940T-shirt.png"
+          alt="1940T-shirt"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Blend 1940 T-shirt $20</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/Atatürk-İmzalı-T-shirt.png"
+          alt="Atatürk-İmzalı-T-shirt"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Atatürk İmzalı T-shirt $25</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/Polo-Yaka-Düğmeli-T-shirt.png"
+          alt="Polo-Yaka-Düğmeli-T-shirt"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Polo Yaka Düğmeli T-shirt $22</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="card-container">
+      <div class="card">
+        <img
+          src="../images/Kolej-Mont.png"
+          alt="Kolej-Mont"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Kolej Mont $40</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/Eşofman-Üst.png"
+          alt="Eşofman-Üst"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Eşofman Üst $35</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/Eşofman-Alt-1.png"
+          alt="Eşofman-Alt-1"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Eşofman Alt $32</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="card-container">
+      <div class="card">
+        <img
+          src="../images/Eşofman-Alt-2.png"
+          alt="Eşofman-Alt-2"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Eşofman Alt $35</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../images/Şort.png" alt="Şort" class="card-img-top" />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Şort $30</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="../images/Taraftar-Atkı.png"
+          alt="Taraftar-Atkı"
+          class="card-img-top"
+        />
+        <button class="favorite-btn">
+          <i class="fa-regular fa-star"></i>
+        </button>
+        <div class="card-body">
+          <h5 class="card-title">Taraftar Atkı $10</h5>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <!--Footer-->
+    <footer>
+      <hr />
+      <p class="social-media-yazi">Sosyal Medyalarımız</p>
+      <ul class="social-media">
+        <li>
+          <a href="#"
+            ><img
+              style="padding-right: 15px"
+              src="../social-media/instagram.png"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              style="padding-right: 5px"
+              src="../social-media/x.png"
+              alt="x"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../social-media/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="../social-media/youtube.png" alt="youtube"
+          /></a>
+        </li>
+      </ul>
+      <hr class="cizgi" />
+      <nav class="sponsorlar">
+        <section>
+          <p class="sponsorlar-title">Sponsorlar</p>
+          <div class="sponsorlar-images">
+            <a href="#"><img width="70" src="../sporsorlar/a.jpg" alt="a" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/b.jpg" alt="b" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/c.png" alt="c" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/d.png" alt="d" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/e.jpg" alt="e" /></a>
+          </div>
+        </section>
+      </nav>
+      <hr class="cizgi" />
+      <nav class="footer-yazi">
+        <p>Copyright 2024, seasports.com.tr - Tüm Hakları Saklıdır.</p>
+      </nav>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".favorite-btn").forEach((button) => {
+        button.addEventListener("click", () => {
+          button.classList.toggle("active");
+          const icon = button.querySelector(".fa-star");
+          if (button.classList.contains("active")) {
+            icon.classList.remove("fa-regular");
+            icon.classList.add("fa-solid");
+          } else {
+            icon.classList.remove("fa-solid");
+            icon.classList.add("fa-regular");
+          }
+        });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

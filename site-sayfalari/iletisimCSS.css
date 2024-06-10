@@ -1,0 +1,247 @@
+body {
+  background-image: url(../images/arka-plan.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-brand img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.logo-icon {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.big-title {
+  text-align: center;
+  color: white;
+}
+
+.big-title img {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.iletisim-formu {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.iletisim-formu h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.iletisim-formu form {
+  width: 100%;
+}
+
+.iletisim-formu .row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.iletisim-formu .row .ad-soyad,
+.iletisim-formu .row .e-posta,
+.iletisim-formu .row .telefon,
+.iletisim-formu .row .konu {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.iletisim-formu .row .mesaj {
+  flex: 2;
+}
+
+.iletisim-formu .text-input,
+.iletisim-formu .selectbox,
+.iletisim-formu .textarea-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.iletisim-formu .selectbox {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.iletisim-formu .textarea-input {
+  resize: vertical;
+}
+
+.iletisim-formu .buton button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.iletisim-formu .buton button:hover {
+  background-color: #0056b3;
+}
+
+.iletisim-formu .buton button .buton-text {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .iletisim-formu .row {
+    flex-direction: column;
+  }
+  .iletisim-formu .row .ad-soyad,
+  .iletisim-formu .row .e-posta,
+  .iletisim-formu .row .telefon,
+  .iletisim-formu .row .konu {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.iletisim-bilgileri {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.iletisim-bilgileri h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.iletisim-bilgileri .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.iletisim-bilgileri .row:last-child {
+  margin-bottom: 0;
+}
+
+.iletisim-bilgileri .row > div {
+  flex: 1;
+  padding: 10px;
+}
+
+.iletisim-bilgileri h3 {
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+.iletisim-bilgileri p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.iletisim-bilgileri a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.iletisim-bilgileri a:hover {
+  text-decoration: underline;
+}
+
+.social-media-yazi {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.social-media {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.social-media li {
+  display: inline-block;
+  text-decoration: none;
+}
+.social-media img {
+  display: block;
+  height: 45px;
+  justify-content: center;
+  align-content: center;
+}
+
+nav.sponsorlar {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav.sponsorlar section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsorlar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sponsorlar-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+nav.sponsorlar a {
+  display: inline-block;
+}
+
+nav.sponsorlar a img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav.sponsorlar a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-yazi {
+  text-align: center;
+}
+
+.cizgi {
+  color: black;
+}

@@ -1,0 +1,228 @@
+body {
+    background: linear-gradient(to right, #e0f7fa, #e0e0e0);
+}
+
+.header {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-brand img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.logo-icon {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.object-fit-contain {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 12px;
+    margin-left: 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.overflow-auto {
+    max-height: 750px;
+    overflow-y: auto;
+    width: 25%;
+    display: inline-block;
+    margin-top: 7px;
+   padding-right: 0px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+
+}
+.overflow-auto ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: Verdana;
+}
+
+
+.overflow-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+
+.altMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17a2b8;
+    color: #fff;
+    width: 100%;
+    height: 75px;
+}
+
+.altMenu p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.altMenu a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.altMenu .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding-right: 300px;
+
+}
+
+.altMenu .nav-links a:hover {
+    color: deepskyblue;
+    text-decoration: none;
+
+}
+
+.card{
+    width: 23%;
+    height: 200px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Sponsorlar Section */
+.social-media-yazi {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.social-media {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.social-media li {
+    display: inline-block;
+    text-decoration: none;
+}
+.social-media img {
+    display: block;
+    height: 45px;
+    justify-content: center;
+    align-content: center;
+}
+
+nav.sponsorlar {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav.sponsorlar section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsorlar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sponsorlar-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+nav.sponsorlar a {
+    display: inline-block;
+}
+
+nav.sponsorlar a img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.sponsorlar a img:hover {
+    transform: scale(1.1);
+}
+
+.footer-yazi {
+    text-align: center;
+}
+
+.cizgi {
+    color: black;
+}

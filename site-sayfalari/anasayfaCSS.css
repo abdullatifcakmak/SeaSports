@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url(../images/arka-plan2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-brand img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.logo-icon {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.news-section {
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+@media (max-width: 767px) {
+  .news-section {
+    margin-bottom: 20px;
+  }
+}
+
+.news-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  background-color: white;
+}
+
+.card-content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #666;
+}
+
+.campaign-container {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .campaign-container {
+    margin-bottom: 20px;
+  }
+}
+
+.campaign-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(50% - 10px);
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+  margin-left: 200px;
+}
+
+.campaign-card:hover {
+  transform: scale(1.05);
+}
+
+.campaign-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.campaign-container .card-content {
+  padding: 15px;
+}
+
+.campaign-container .card-content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.campaign-container .card-content p {
+  font-size: 16px;
+  color: #666;
+}
+
+nav.sponsorlar {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav.sponsorlar section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsorlar-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sponsorlar-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+nav.sponsorlar a {
+  display: inline-block;
+}
+
+nav.sponsorlar a img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav.sponsorlar a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-yazi {
+  text-align: center;
+  color: white;
+}
+
+.cizgi {
+  color: white;
+}

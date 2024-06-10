@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | Sea Sports Kulübü</title>
+    <link rel="icon" href="../images/logo.png" />
+    <link rel="stylesheet" href="iletisimCSS.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-info py-4">
+        <div class="container-fluid">
+          <a href="anasayfa.html">
+            <img src="../images/logo.png" alt="logo" class="logo-icon" />
+          </a>
+         
+          <a class="navbar-brand" href="anasayfa.html">Sea Sports</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="anasayfa.html"
+                  >Anasayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kulüp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fikstür</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Branşlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Magaza.html" target="_blank"
+                  >Mağaza</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tv.html" target="_blank"
+                  >Sea Sports TV</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="iletisim.html" target="_blank"
+                  >İletişim</a
+                >
+              </li>
+            </ul>
+            
+
+            <form class="d-flex ms-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Arama yapın.."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+       
+      </nav>
+    </header>
+    <main>
+      <br><br><br>
+      <div class="big-title">
+        <h1>İLETİŞİM</h1>
+        <img width="500" src="../images/sea-sports.png" alt="sea-sports-kulubü">
+      </div>
+      <br /><br /><br /><br />
+      <div class="iletisim-formu">
+        <h2>İletişim Formu</h2>
+        <form action="">
+          <div class="row">
+            <div class="ad-soyad">
+              <input
+                class="text-input"
+                id="name_surname"
+                name="name_surname"
+                placeholder="AD SOYAD"
+                type="text"
+                value=""
+              />
+            </div>
+            <div id="deneme" class="e-posta">
+              <input
+                class="text-input"
+                id="email"
+                name="email"
+                placeholder="E-POSTA"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="telefon">
+              <input
+                class="text-input"
+                id="telefon"
+                name="telefon"
+                onkeypress="fn_validateNumeric(this)"
+                placeholder="TELEFON"
+                type="text"
+                value=""
+              />
+            </div>
+            <div class="konu">
+              <select name="konu-secme" id="konu-secme" class="selectbox">
+                <option value="1">KONU</option>
+                <option value="2">Websitesi</option>
+                <option value="3">Mağaza ile ilgili</option>
+                <option value="4">Öneri ve Tavsiyeler</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mesaj">
+              <textarea
+                class="textarea-input"
+                name="mesaj"
+                cols="70"
+                rows="7"
+                id="mesaj"
+                placeholder="MESAJINIZ"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="buton">
+              <button type="submit">
+                <span class="buton-text">GÖNDER</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+      <div class="iletisim-bilgileri">
+        <h2>İletişim Bilgileri</h2>
+        <div class="row">
+          <div class="sea-sports-telefon-faks">
+            <p>
+                <h3>Sea Sport Kulübü</h3>
+                <p><b>Telefon:</b>XXXXXXX <br>
+                <b>Faks:</b>XXXXXXX</p>
+            </p>
+          </div>
+          <div class="sea-store">
+            <h3>Sea Store</h3>
+            <p><b>Adres:</b>XXXXXXX   <br>
+            <a href="mailto:infoseasports.com.tr" rel="nofollow">infoseasports.com.tr</a></p>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="is-bavurulari">
+            <h3>İş Başvuruları İçin</h3>
+            <p><a href="mailto:ib@seasports.com.tr">ib@seasports.com.tr</a></p>
+          </div>
+          <div class="sea-sports-soru-oneri">
+            <h3>Sea Sports ile İlgili Soru ve Öneriler İçin</h3>
+            <p><a href="mailto:info@seasports.com.tr" rel="nofollow">info@seasports.com.tr</a></p>
+            
+          </div>
+        </div>
+
+      </div>
+      
+    </main>
+
+    <footer>
+      <hr />
+      <p class="social-media-yazi">Sosyal Medyalarımız</p>
+      <ul class="social-media">
+        <li>
+          <a href="#"
+            ><img style="padding-right: 15px;"  src="../social-media/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img style="padding-right: 5px;" src="../social-media/x.png" alt="x" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img  src="../social-media/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img  src="../social-media/youtube.png" alt="youtube"
+          /></a>
+        </li>
+      </ul>
+      <hr class="cizgi" />
+      <nav class="sponsorlar">
+        <section>
+          <p class="sponsorlar-title">Sponsorlar</p>
+          <div class="sponsorlar-images">
+            <a href="#"><img width="70" src="../sporsorlar/a.jpg" alt="a" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/b.jpg" alt="b" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/c.png" alt="c" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/d.png" alt="d" /></a>
+            <a href="#"><img width="70" src="../sporsorlar/e.jpg" alt="e" /></a>
+          </div>
+        </section>
+      </nav>
+      <hr class="cizgi" />
+      <nav class="footer-yazi">
+        <p>Copyright 2024, seasports.com.tr - Tüm Hakları Saklıdır.</p>
+      </nav>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

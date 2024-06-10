@@ -1,0 +1,197 @@
+.header {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-brand img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.logo-icon {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  background-color: cornsilk;
+}
+
+.date-time {
+  margin-top: 50px;
+}
+.tum-icerik {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.sol-taraf {
+  flex: 3;
+}
+.sag-taraf {
+  flex: 1;
+  margin-left: 20px;
+}
+.baslik-ve-zaman {
+  margin-bottom: 20px;
+}
+.baslik-ve-zaman h1 {
+  margin: 0;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.photo img {
+  width: 75%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.paragraphs {
+  text-align: justify;
+}
+.end-paragraphs {
+  margin-bottom: 150px;
+}
+.üst-baslik h3 {
+  margin: 95px 0 40px 40px;
+}
+.ilgili-haber-blogu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ilgili-haber-blogu img {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.ilgili-haber-blogu a {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: cornsilk;
+}
+.sponsorlar-images a {
+  margin: 0 10px;
+}
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.ilgili-haber-blogu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ilgili-haber-blogu img {
+  width: 80%;
+  margin-bottom: 5px;
+}
+.ilgili-haber-blogu a {
+  text-align: center;
+}
+
+.social-media-yazi {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.social-media {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.social-media li {
+  display: inline-block;
+  text-decoration: none;
+}
+.social-media img {
+  display: block;
+  height: 45px;
+  justify-content: center;
+  align-content: center;
+}
+
+nav.sponsorlar {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav.sponsorlar section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsorlar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sponsorlar-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+nav.sponsorlar a {
+  display: inline-block;
+}
+
+nav.sponsorlar a img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav.sponsorlar a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-yazi {
+  text-align: center;
+}
+
+.cizgi {
+  color: black;
+}
